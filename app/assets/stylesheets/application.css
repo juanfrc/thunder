@@ -15,19 +15,43 @@
  */
 
 body {
-  background: linear-gradient(#000, #003366);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   font-family: Avenir Next, Arial;
   color: #ffffff;
+  background-color: #F4E0E0;
+}
+
+nav .container-fluid {
+  background-color: #930000;
+}
+
+.navbar.custom-nav {
+  margin-bottom: 0px;
+}
+
+i {
+  color: white;
+}
+
+.container-fluid {
+  background-color: #F4E0E0;
+  margin-top: 0;
+}
+
+
+.logout {
+  padding-top: 10px;
+  padding-right: 15px;
+
 }
 
 p {
   color: gray;
+  display: block;
+  font-size: 18px;
 }
 
 a {
-  color: #099;
+  color: white;
 }
 
 header a {
@@ -39,34 +63,31 @@ header img {
   height: 30px;
   display: block;
   float: right;
+  padding-right: 10px;
 }
 
 figure {
-  width: 300px;
+  width: 100%;
   margin: 30px auto 30px auto;
-  background-color: #f5f5f5;
   padding: 15px;
 }
 figure img {
   height: 300px;
 }
-figure button {
-  margin-left: 20px;
-  text-align: right;
-  height: 50px;
-  width: 120px;
-  background: url(like.png) no-repeat;
-}
+
+
 .like {
   background-position: 0 -50px;
 }
+
 .nolike {
 }
 
 footer {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
+  text-align: right;
+}
+footer p, button a, button i {
+  color: #E2E2E2;
 }
 
 .alert {
@@ -79,3 +100,20 @@ footer {
 #match figure {
   float: left;
 }
+
+figure button {
+  width: 150px;
+}
+.bottom {
+  background-color: #930000;
+}
+
+.well.custom-well {
+  border-radius: 10px;
+  background: #E6E6E6;
+
+}
+.main-color {
+  color: #930000;
+}
+
